@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .header, .footer {
     background-color: #1f2937;
 }
@@ -33,4 +37,46 @@
     text-decoration: none;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.intro-container {
+    background-color: #1f2937;
+    padding: 3em;
+}
+.content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 60%;
+    margin: 0 auto;
+}
+.intro h1 {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+
+    margin-bottom: 1rem;
+}
+.intro p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #e5e7eb;
+
+    margin-bottom: 1rem;
+}
+img {
+    width: 1000px;
+    height: 300px;
+}
+.sign-up {
+    border: none;
+    border-radius: 6px;
+    background-color: #3882f6;
+    padding: 8px 20px;
+
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: white;
+
+    cursor: pointer;
 }
