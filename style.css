@@ -113,7 +113,17 @@ body {
 
 .signup {
     display: flex;
-    
+    padding: 3em 6em;
+    justify-content: space-between;
+    border-radius: 16px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.footer {
+    padding: 3em;
+    text-align: center;
+    color: white;
 }
 
 img {
@@ -131,6 +141,9 @@ img {
     color: white;
 
     cursor: pointer;
+}
+.btn-light {
+    border: 2px solid #e5e7eb;
 }
 .max-width {
     max-width: 70%;
